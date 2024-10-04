@@ -1,0 +1,24 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "description": "task-1",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "furniture"
+  },
+  "keywords": [
+    "furniture"
+  ],
+  "author": "Elie",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2"
+  }
+}

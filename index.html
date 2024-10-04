@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+    <!-- NAVBAR -->
+     
+
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="resources/Logo.png" class="h-8" alt="Flowbite Logo">
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+  </a>
+  <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+    <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Get Started</button>
+
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <li>
+        <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Support</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<br />
+<br />
+<br />
+
+        <!-- {/* first block */} -->
+        <div class='flex flex-col lg:grid lg:grid-cols-6 lg:grid-rows-2 container m-6'>
+        <div id='squareOne' class='bg-white text-black p-5 lg:col-start-1 lg:col-end-5'>
+    <h1 class="text-4xl md:text-5xl pb-20 font-bold">Interior Design</h1>
+    <p class="text-md md:text-xl text-left md:container ">Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge 
+    modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication</p>
+    </div>
+    
+    <div id='squareTwo' class=' lg:col-start-5 lg:col-end-7 '>
+    <img class='square-two-img flex flex-row' src='https://i.imgur.com/6GXUGn6.png' />
+    </div>
+    <div id='squareThree' class='p-5 lg:col-start-1 lg:col-end-4 bg-white '>
+        <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 text-2xl lg:pb-3 lg:pt-3 lg:pl-7 lg:pr-7">Start Project</button>
+    <span class='grid-cols-1 md:flex md:flex-row gap-x-14 md:gap-x-24 text-center text-black bg-white xl:m-10'>
+     
+        <div class=""><h1 class="font-semibold text-xl md:text-3xl">400+</h1><p>Project Complete</p></div>
+        <div class=""><h1 class="font-semibold text-xl md:text-3xl">600+</h1><p>Satisfied Clients</p></div>
+        <div class=""><h1 class="font-semibold text-xl md:text-3xl">100+</h1><p>Unique Styles</p></div>
+    
+    </span>
+    </div>
+    <div  id='squareFour' class='md:col-start-4 md:col-span-4 md:flex flex-col'>
+        <img class='' src='https://i.imgur.com/AZtmdbe.png' />
+    </div>
+    
+      </div>
+      <!-- SECOND BLOCK -->
+       <h1 class="text-xl md:text-6xl font-semibold m-6 ml-20">Our Services</h1>
+       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+
+        <span class="m-5">
+            <img class="svg-img" src="./resources/bulb.svg" />
+            <h3 class="text-md md:text-lg md:text-2xl text-semibold p-5">Lightning Design</h3>
+            <p class="text-md md:text-lg p-5">*Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quisquam? Impedit et voluptates pariatur expedita suscipit, soluta est officiis accusamus aperiam ut architecto eligendi tempora consequuntur dolores similique voluptatum explicabo?</p>
+        </span>
+          <span class="m-5">
+            <img class="svg-img" src="./resources/bulb.svg" />
+            <h3 class="text-md md:text-lg text-semibold p-5">Lightning Design</h3>
+            <p class="text-md md:text-lg p-5">*Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quisquam? Impedit et voluptates pariatur expedita suscipit, soluta est officiis accusamus aperiam ut architecto eligendi tempora consequuntur dolores similique voluptatum explicabo?</p>
+        </span>
+        <span class="m-5">
+            <img class="svg-img" src="./resources/bulb.svg" />
+            <h3 class="text-md md:text-lgl text-semibold p-5">Lightning Design</h3>
+            <p class="text-md md:text-lg p-5">*Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quisquam? Impedit et voluptates pariatur expedita suscipit, soluta est officiis accusamus aperiam ut architecto eligendi tempora consequuntur dolores similique voluptatum explicabo?</p>
+        </span>
+    </div>
+        
+<!-- THIRD BLOCK -->
+        <div class=" grid grid-cols-1 container md-grid-cols-1 md:flex md:flex-row m-6">
+            <span class=" p-1">
+              <img class="third-block-pic md:mask-img p-1" src="./resources/Mask group.png" />
+            </span>
+
+            <span class="flex-col lg:grid-cols-1 ml-6 gap-y-14 flex-start text-start	 p-1">
+                <h1 class="text-xl md:text-4xl mb-10 font-semibold text-left p-1">Designing Your Dream With Brilliance</h1>
+                <p class="text-lg text-left mb-14 text-left p-1">Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience</p>
+                <h3 class="font-semibold text-lg md:text-xl bottys mb-5 mb-14 text-left p-1">Living Room Interior Design +</h3>
+                <h3 class="font-semibold text-lg md:text-xl bottys mb-5 mb-14 text-left p-1">Commercial Office Room Interior Design +</h3>
+                <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 text-lg md:text-2xl pb-5 pt-5 pl-10 pr-10 mb-14 text-left p-1">Learn More</button>
+            </span>
+        </div>
+
+      <!-- FOURTH BLOCK -->
+       <section class="grid grid-cols-1 md:grid-cols-2">
+
+       
+    <div class="grid grid-cols-1 md:grid-cols-1 m-20 gap-y-5">
+        <span>
+            <div class="flex flex-row md:gap-x-12">
+                <img src="resources/rocket.png" alt="">
+                <h1 class="md:text-2xl">Start Project</h1>
+                  </div>
+                   <article class="flex flex-row">
+                 <p class="text-lg md:pl-20">Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience</p>
+            </article>
+        </span>
+        <span>
+            <div class="flex flex-row md:gap-x-12">
+                <img src="resources/rocket.png" alt="">
+                <h1 class="md:text-2xl">Start Project</h1>
+                  </div>
+                   <article class="flex flex-row">
+                 <p class="text-lg md:pl-20">Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience</p>
+            </article>
+        </span>
+        <span>
+            <div class="flex flex-row md:gap-x-12">
+                <img src="resources/rocket.png" alt="">
+                <h1 class="md:text-2xl">Start Project</h1>
+                  </div>
+                   <article class="flex flex-row">
+                 <p class="text-lg md:pl-20">Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience</p>
+            </article>
+        </span>
+    </div>
+        <img src="resources/Image.png" alt=""/>
+    </section>
+    <!-- FIFTH BLOCK -->
+
+
+
+
+
+
+    <img class="full-pic mt-5" src="resources/full-pic.png" />
+    <!-- SIXTH BLOCK -->
+<section class="text-center">
+<h1>Subscribe to Our Newsletter for Design Insights</h1>
+
+<div id="formy" class="">
+    <input class="" type="text">
+<button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Subscribe</button>
+</div>
+</section>
+
+<!-- SEVENTH BLOCK -->
+
+<section class="text-center bg-gray-900 text-white md:grid md:grid-cols-5 p-10">
+     <!-- col1 -->
+    <article class="flex flex-col mb-5 col-start-1">
+<img class="svg-img" src="resources/Logo.png" />
+<p>VivaDecor your premier destination for luxury and modern interior design</p>
+<div class="flex flex-row">
+    <img src="resources/facebook.png" alt="">
+    <img src="resources/whatsapp.png" alt="">
+</div>
+    </article>
+    <!-- col2 -->
+    <article class="flex flex-col mb-5 col-start-3">
+<h1>Our services</h1>
+<h2>Interior Design</h2>
+<h2>Outdoor Design</h2>
+<h2>Lighting Design</h2>
+<h2>Office Design</h2>
+    </article>
+    <!-- col3 -->
+   
+    <article class="flex flex-col mb-5 col-start-4">
+        <h1>Our services</h1>
+        <h2>Reviews</h2>
+        <h2>Careers</h2>
+        <h2>Pricing</h2>
+        <h2>Press Inquiries</h2>
+            </article>
+        
+
+            <!-- col4 -->
+            <article class="flex flex-col col-start-5">
+             <h1>Our Services</h1>
+             <h2>info@vivadecor.com</h2>
+             <h2>Design Avenue Cityville, CA 90210 United States</h2>
+            </article>
+</section>
+</body>
+</html>

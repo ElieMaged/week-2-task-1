@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.svg-img{ 
+    width:7rem;
+  
+}
+
+.third-block-pic {
+    width: 70rem;
+    margin-right: 2rem;
+}
+
+.mask-img {
+    width: 105rem;
+    margin-right: 2rem;
+}
+
+.bottys {
+   border-bottom:.05rem solid black;
+}
+
+.full-pic {
+    width: 100%;
+}
+
+#formy {
+    display: flex;
+    flex-direction: row;
+    padding:1px;
+}
+
+#inputy {
+  flex-grow:2;
+  border:none;
+}
